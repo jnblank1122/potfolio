@@ -163,3 +163,11 @@ margin-bottom: 25px;
 ol {
   text-align: left;
 }
+
+.col-md-5 h2 {
+  margin-top: 25px;
+}
+
+.col-md-7 img {
+  margin-top: 25px;
+}
