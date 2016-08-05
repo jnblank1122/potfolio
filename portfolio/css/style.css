@@ -92,3 +92,8 @@ h2 {
 }
 
 .button:hover {color: #33F7FF}
+
+.nav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
