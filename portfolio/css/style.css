@@ -2,7 +2,6 @@
 .carousel-inner > .item > a > img {
     margin: auto;
      width: 100%;
-     max-height: 555px;
      margin-top: 75px;
      margin-bottom: 25px;
  }
@@ -38,11 +37,20 @@ h1 {
   text-align: center;
 }
 
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
 .glyphicon{
   margin-top: 20px;
   text-align: center;
   font-size: 48px;
   display: block;
+}
+
+.glyphicon b1{
+  color: blue:
 }
 
 
@@ -68,3 +76,19 @@ h1 {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.button {
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 15px 250px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.button:hover {color: #33F7FF}
