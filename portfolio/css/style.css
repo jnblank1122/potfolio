@@ -2,7 +2,6 @@
 .carousel-inner > .item > a > img {
     margin: auto;
      width: 100%;
-     margin-top: 75px;
      margin-bottom: 25px;
  }
 
@@ -13,6 +12,7 @@
 
 body{
   background-color: #ffffff;
+  margin-top: 75px;
 }
 
 .center {
@@ -40,6 +40,11 @@ h1 {
 h2 {
     text-align: center;
     font-weight: bold;
+    margin-top: 0px;
+}
+
+h3 {
+  font-size: 36px;
 }
 
 .glyphicon{
@@ -96,4 +101,21 @@ h2 {
 .nav li a.active {
     background-color: #4CAF50;
     color: white;
+}
+
+.container div a:hover {
+  color: red;
+  font-weight: bold;
+}
+
+.contact {
+  color: green;
+}
+
+.col-md-4 {
+  padding-bottom: 75px;
+}
+
+.container {
+  position: relative;
 }
